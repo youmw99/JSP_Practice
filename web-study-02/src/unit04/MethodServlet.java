@@ -44,7 +44,6 @@ public class MethodServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.print("<h1>post 방식으로 처리됨<h1>");
 		out.close();
-		
 	}
 
 }

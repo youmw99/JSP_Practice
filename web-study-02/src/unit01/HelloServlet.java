@@ -30,11 +30,11 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//클라이언트에게 응답할 페이지 정보를 셋팅한다.
-		response.setContentType("text/html");
+		response.setContentType("text/html ; charset= UTF-8");
 		//ctrl+shift+O(알파벳) = 자동 import
 		PrintWriter out = response.getWriter();
 		out.print("<html><body><h1>");
-		out.print("Hello Servlet");
+		out.print("Hello Servlet : 안녕 서블렛");
 		out.print("</h1></body></html>");
 		out.close();
 		

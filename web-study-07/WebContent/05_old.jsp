@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!--표현 언어(EL, Expression Language : 이렇게 값을 가져오면 편하다-->
-${"Hello"} <br>
-<%="Hello" %><br><!-- 표현식(Expression) -->
-<% out.println("Hello"); %><br><!-- 스크립트릿 -->
+연산자 사용 결과 : <%=request.getParameter("id") =="pinksung" %><br>
+equals() 사용 결과 : <%=request.getParameter("id").equals("pinksung") %><br>
 </body>
 </html>
